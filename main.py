@@ -337,9 +337,6 @@ class DetectionPredictor():
         self.videoWriter.release()
         
         
-
-# @hydra.main(version_base=None,config_path="configs", config_name="yolo.yaml")
-# @hydra.main(version_base=None, config_path=str(DEFAULT_CONFIG.parent), config_name=DEFAULT_CONFIG.name)
 def predict():
     init_tracker()
     
